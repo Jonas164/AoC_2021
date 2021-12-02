@@ -1,6 +1,6 @@
 package main.kotlin
 
-fun main(args: Array<String>)
+fun main()
 {
     val result = CommonUtils.readFile("1/src/main/resources/input.txt")
         .map { e -> e.toInt() }

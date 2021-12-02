@@ -2,7 +2,7 @@ package main.kotlin
 
 import CommonUtils.Factory.readFile
 
-fun main(args: Array<String>)
+fun main()
 {
 
     val result = readFile("1/src/main/resources/input.txt")
